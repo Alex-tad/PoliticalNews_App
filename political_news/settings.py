@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5o8%fz8*e&l^zrg6!0sh3z@m!dqzk01v-xuvwe=gx1(t$62i6e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ethiowatch-news.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
