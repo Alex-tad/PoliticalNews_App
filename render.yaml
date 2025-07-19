@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: political-news-app
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn political_news.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: political_news.settings
+      - key: PYTHON_VERSION
+        value: 3.10
